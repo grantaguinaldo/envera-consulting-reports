@@ -7,6 +7,10 @@ Format: `## YYYY-MM-DD — <action>` where action is Add / Replace / Remove / Si
 
 ---
 
+## 2026-07-02 — Site
+Redesigned the reports index (homepage) to match the main Envera Consulting site: full site header (logo, nav, Capabilities dropdown, "Get in Touch" CTA) and footer, brand design tokens (Fraunces/DM Sans, brand greens), and restyled report cards. Added a replica of the site's split contact modal — since this static subdomain has no backend, the form hands off to the visitor's email client (mailto) instead of posting server-side. Self-contained single file; nav/footer link to enveraconsulting.com. Report-card class names preserved so the publishing workflow is unchanged.
+→ https://reports.enveraconsulting.com/
+
 ## 2026-07-01 — Replace: 45z-tallow-analysis
 Updated the §45Z tallow-HEFA memo with SAF-specific parameter changes (SAF 1.00). Card date bumped June → July 2026.
 → https://reports.enveraconsulting.com/45z-tallow-analysis/
